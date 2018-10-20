@@ -10,4 +10,8 @@ To tell git to stop worrying about things, add them to .gitignore
 
 
 Here are some more notes that I DEFINATELY DONT want to delete...
-Oh crap i didn't want to write this line! How is this possible?!
+
+# 2018-10-20
+Notes from student B (Jose Varela)
+Git Branches:
+Branch operation allows creating another line of development. We can use this operation to fork off the development process into two (or more) different directions.
