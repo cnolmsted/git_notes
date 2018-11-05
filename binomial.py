@@ -65,7 +65,7 @@ def choose(n_value,k_value):
     NminusK = int(n_value) - int(k_value)
     result += log_Nfact_over_Kfact(n_value,k_value) - logfactorial(NminusK)
     result = 10 ** result
-    return(int(result)) #int because sometimes it gives decimals that are rounding errors
+    return(round(result)) #round because sometimes it gives decimals that are rounding errors
     
 #this function calculates the log of the above funciton
 def chooseLog10(n_value,k_value):
